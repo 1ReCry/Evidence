@@ -38,7 +38,6 @@ public class GameManager : MonoBehaviour
     [Header("Настройки дневной сцены")]
     public Material skyboxDay;
     public Light lightning;
-    //public PostProcessVolume postProcessVolume; 
 
     [Header("Настройка спавна особых предметов")]
     public GameObject[] items;
@@ -61,11 +60,6 @@ public class GameManager : MonoBehaviour
     public bool electric_enabled = true;
 
     public float gameTime;
-    //0 - обыч
-    //1 - агр
-    //2 - хищ
-    //3 - тихий
-    //4 - призрак
     
     void Awake()
     {
